@@ -15,12 +15,14 @@ physical_interfaces:
     enabled: True
 
 logical_interfaces:
-  - name: GigabitEthernet0/2.2006
+  - name: GigabitEthernet0/2
     ipv4:
       - address: 10.20.1.21/30
-  - name: GigabitEthernet0/2.2007
+    unit: 2006
+  - name: GigabitEthernet0/2
     ipv4:
       - address: 10.20.1.26/30
+    unit: 2007
   - name: Loopback0
     ipv4:
       - address: 10.20.3.5/32
