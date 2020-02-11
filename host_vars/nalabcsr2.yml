@@ -21,7 +21,7 @@ logical_interfaces:
     unit: 2011
   - name: GigabitEthernet2
     ipv4:
-      - address: 10.20.1.45/30
+      - address: 10.20.1.45
         mask: 255.255.255.252
     unit: 2012
   - name: Loopback0
