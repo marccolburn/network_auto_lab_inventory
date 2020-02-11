@@ -15,12 +15,12 @@ physical_interfaces:
     enabled: True
 
 logical_interfaces:
-  - name: GigabitEthernet0/2
+  - name: GigabitEthernet2
     ipv4:
       - address: 10.20.1.21
         mask: 255.255.255.252
     unit: 2006
-  - name: GigabitEthernet0/2
+  - name: GigabitEthernet2
     ipv4:
       - address: 10.20.1.26
         mask: 255.255.255.252
