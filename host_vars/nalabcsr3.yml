@@ -10,15 +10,12 @@ physical_interfaces:
 logical_interfaces:
   - name: GigabitEthernet2
     ipv4:
-      - address: 10.20.1.33
-        mask: 255.255.255.252
+      - address: 10.20.1.33/30
     unit: 2009
   - name: GigabitEthernet2
     ipv4:
-      - address: 10.20.1.41
-        mask: 255.255.255.252
+      - address: 10.20.1.41/30
     unit: 2011
   - name: Loopback0
     ipv4:
-      - address: 10.20.3.3
-        mask: 255.255.255.255
+      - address: 10.20.3.3/32
