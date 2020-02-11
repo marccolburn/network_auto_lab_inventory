@@ -4,6 +4,12 @@ physical_interfaces:
   - name: GigabitEthernet2
     description: Physical Interface to lab_internal vSwitch
     enabled: True
+  - name: GigabitEthernet2.2006
+    description: Subinterface to nalabeos1 
+    enabled: True
+  - name: GigabitEthernet2.2007
+    description: Subinterface to nalabvmx1vcp
+    enabled: True
   - name: Loopback0
     description: Loopback Interface for Protocols
     enabled: True
