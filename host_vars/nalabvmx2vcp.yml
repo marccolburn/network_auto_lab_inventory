@@ -1,2 +1,23 @@
 ---
 ansible_host: 10.1.100.136
+physical_interfaces:
+  - name: ge-0/0/0
+    description: Physical Interface to lab_internal vSwitch
+    enabled: True
+  - name: lo0
+    description: Loopback Interface for BGP
+    enabled: True
+
+logical_interfaces:
+  - name: ge-0/0/0
+    ipv4:
+      address: 10.20.1.29/30
+    unit: 2008
+  - name: ge-0/0/0
+    ipv4:
+      address: 10.20.1.37/30
+    unit: 2010
+  - name: lo0
+    ipv4:
+      address: 10.20.3.2/32
+    unit: 0

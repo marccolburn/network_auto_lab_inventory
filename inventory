@@ -7,10 +7,8 @@ nalabvmx2vcp
 [iosxe_devices]
 nalabcsr1 
 nalabcsr2 
+nalabcsr3
 nalabiosvl2 
-
-[iosxr_devices]
-nalabiosxr9k1 
 
 [cumulus_devices]
 nalabcvx1 
@@ -46,7 +44,7 @@ nalabcsr2
 
 [sp_p]
 nalabvmx2vcp
-nalabiosxr9k1
+nalabcsr3
 
 [serviceprovider_lab:children]
 sp_pe

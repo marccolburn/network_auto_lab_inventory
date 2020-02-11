@@ -1,1 +1,25 @@
 ansible_host: 10.1.100.129
+physical_interfaces:
+  - name: Ethernet1
+    description: Physical Interface to lab_internal vSwitch
+    enabled: True
+  - name: Loopback0
+    description: Loopback Interface for BGP
+    enabled: True
+
+logical_interfaces:
+  - name: Ethernet1.2003
+    ipv4:
+      address: 10.20.1.10/30
+  - name: Ethernet1.2004
+    ipv4:
+      address: 10.20.1.14/30
+  - name: Ethernet1.2005
+    ipv4:
+      address: 10.20.1.18/30
+  - name: Ethernet1.2006
+    ipv4:
+      address: 10.20.1.22/30
+  - name: Loopback0
+    ipv4:
+      address: 10.20.3.6/32

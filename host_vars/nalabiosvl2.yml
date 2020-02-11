@@ -1,2 +1,9 @@
 ---
 ansible_host: 10.1.100.133
+physical_interfaces:
+  - name: GigabitEthernet0/1
+    description: Physical Interface to branch_switch_ext vSwitch
+    enabled: True
+  - name: GigabitEthernet0/2
+    description: Physical Interface to branch_switch_int vSwitch
+    enabled: True

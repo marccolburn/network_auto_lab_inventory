@@ -1,20 +1,19 @@
----
-ansible_host: 10.1.100.132
+ansible_host: 10.1.100.13X
 physical_interfaces:
   - name: GigabitEthernet2
     description: Physical Interface to lab_internal vSwitch
     enabled: True
   - name: Loopback0
-    description: Loopback Interface for Protocols
+    description: Loopback Interface for BGP
     enabled: True
 
 logical_interfaces:
-  - name: GigabitEthernet0/2.2006
+  - name: GigabitEthernet0/2.2009
     ipv4:
-      address: 10.20.1.21/30
-  - name: GigabitEthernet0/2.2007
+      address: 10.20.1.33/30
+  - name: GigabitEthernet0/2.2011
     ipv4:
-      address: 10.20.1.26/30
+      address: 10.20.1.41/30
   - name: Loopback0
     ipv4:
-      address: 10.20.3.5/32
+      address: 10.20.3.3/32
