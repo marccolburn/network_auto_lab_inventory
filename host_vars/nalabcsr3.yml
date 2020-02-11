@@ -1,4 +1,4 @@
-ansible_host: 10.1.100.13X
+ansible_host: 10.1.100.115
 physical_interfaces:
   - name: GigabitEthernet2
     description: Physical Interface to lab_internal vSwitch
@@ -10,10 +10,10 @@ physical_interfaces:
 logical_interfaces:
   - name: GigabitEthernet0/2.2009
     ipv4:
-      address: 10.20.1.33/30
+      - address: 10.20.1.33/30
   - name: GigabitEthernet0/2.2011
     ipv4:
-      address: 10.20.1.41/30
+      - address: 10.20.1.41/30
   - name: Loopback0
     ipv4:
-      address: 10.20.3.3/32
+      - address: 10.20.3.3/32

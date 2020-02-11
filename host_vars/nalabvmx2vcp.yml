@@ -11,13 +11,13 @@ physical_interfaces:
 logical_interfaces:
   - name: ge-0/0/0
     ipv4:
-      address: 10.20.1.29/30
+      - address: 10.20.1.29/30
     unit: 2008
   - name: ge-0/0/0
     ipv4:
-      address: 10.20.1.37/30
+      - address: 10.20.1.37/30
     unit: 2010
   - name: lo0
     ipv4:
-      address: 10.20.3.2/32
+      - address: 10.20.3.2/32
     unit: 0

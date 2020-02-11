@@ -11,10 +11,10 @@ physical_interfaces:
 logical_interfaces:
   - name: GigabitEthernet0/2.2006
     ipv4:
-      address: 10.20.1.21/30
+      - address: 10.20.1.21/30
   - name: GigabitEthernet0/2.2007
     ipv4:
-      address: 10.20.1.26/30
+      - address: 10.20.1.26/30
   - name: Loopback0
     ipv4:
-      address: 10.20.3.5/32
+      - address: 10.20.3.5/32
